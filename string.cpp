@@ -64,7 +64,7 @@ for (int i = 0; i < s6.size(); i++)
 }
 
 //getting substring
-string s7=s5.substr(6,4);
+string s7=s5.substr(6,2);
 cout<<s7<<endl;
 
 //string to integer
