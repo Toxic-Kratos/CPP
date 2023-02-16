@@ -9,7 +9,7 @@ void toh(int n,int src,int dest,int helper)
     }
 
     toh(n-1,src,helper,dest);
-    cout<<"Move block from"<<" "<<src<<" "<<"to"<<" "<<dest<<endl;
+    cout<<"Move block from:"<<" "<<src<<" "<<"to"<<" "<<dest<<endl;
     toh(n-1,helper,dest,src);
 }
 
