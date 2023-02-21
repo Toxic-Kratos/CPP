@@ -18,6 +18,6 @@ void permutation(string s,string ans)
 }
 int main()
 {
-    permutation("ABC","")<<endl;
+    permutation("ABC","");
     return 0;
 }
